@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 import { Helmet } from 'react-helmet-async'; // Import react-helmet-async for meta tags
-import Header from './Components/Header'
-import Main from './Components/Main'
-import Footer from './Components/Footer'
+import Header from './Components/Header';
+import Main from './Components/Main';
+import Footer from './Components/Footer';
 
 const App = () => {
   return (
@@ -54,7 +54,7 @@ const App = () => {
         <Footer />
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
