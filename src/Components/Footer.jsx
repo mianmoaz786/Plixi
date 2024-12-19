@@ -75,7 +75,7 @@ const Footer = () => {
 
 
            <div className="footer-img-box">
-            <img src={footerimg} alt="" />
+            <img loading="lazy" src={footerimg} alt="" />
            </div>
       <div className="footer-bottom">
         <p>©2024 Plixi. Made with ❤️ in San Francisco, CA</p>

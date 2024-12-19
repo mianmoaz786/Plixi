@@ -5,7 +5,7 @@ const PrimaryNavbar = () => {
   return (
     <>
       <div className='primarynavbar'>
-        <img src={primarynavbar} alt="" />
+        <img loading="lazy" src={primarynavbar} alt="logo-plixi" />
       </div>
     </>
   )

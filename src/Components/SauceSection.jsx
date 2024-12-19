@@ -33,7 +33,7 @@ const SauceSection = () => {
 
         <div className="sauce-section-button-cover">
           <button class="sauce-section-button">
-            <img src={instagramimg} alt="Instagram Icon" />Get Started
+            <img loading="lazy" src={instagramimg} alt="Instagram Icon" />Get Started
           </button>
         </div>
       </div>

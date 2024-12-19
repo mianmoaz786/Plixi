@@ -19,7 +19,7 @@
         <>
           <nav className='secondarynavbar'>
             <div className="nav-left">
-              <img src={plixiLogo} alt="Plixi Logo" />
+              <img loading="lazy" src={plixiLogo} alt="Plixi Logo" />
               <input className='nav-input' type="text" placeholder='Your Instagram Username' />
               {windowWidth <= 1199 && windowWidth >= 320 && (
                 <button 

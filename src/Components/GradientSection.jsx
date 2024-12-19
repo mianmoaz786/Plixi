@@ -50,7 +50,7 @@ const GradientSection = () => {
 
         <p className="sign-up-btn">Sign Up For Plixi</p>
 
-        <img src={gradientsectionimg} alt="" />
+        <img loading="lazy" src={gradientsectionimg} alt="" />
         <h2>Trusted by the top marketers.</h2>
       </div>
     </>

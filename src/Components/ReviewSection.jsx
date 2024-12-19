@@ -15,7 +15,7 @@ const ReviewSection = () => {
         </div>
         <div className="review-section-content-right">
 
-          <button><img src={reviewinputbtn} alt="" /></button>
+          <button><img loading="lazy" src={reviewinputbtn} alt="review-btn" /></button>
 
           <div className="review-section-content-right-content">
             <h1>Who should use Plixi?</h1>

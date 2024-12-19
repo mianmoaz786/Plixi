@@ -27,7 +27,7 @@ const SliderSection = () => {
           <div className="caro d-flex align-items-center">
             {[...Array(3)].flatMap(() => 
               [sliderImg1, sliderImg2, sliderImg3, sliderImg4, sliderImg5, sliderImg6, sliderImg7, sliderImg8].map((imgSrc, index) => (
-                <img key={index} src={imgSrc} className="d-block" alt={`Slide ${index + 1}`} data-cid={`cid-${index + 1}`} />
+                <img loading="lazy" key={index} src={imgSrc} className="d-block" alt={`Slide ${index + 1}`} data-cid={`cid-${index + 1}`} />
               ))
             )}
           </div>

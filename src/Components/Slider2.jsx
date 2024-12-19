@@ -28,7 +28,7 @@
     
       const testimonials = Array.from({ length: 12 }, (_, index) => (
         <div className="cardo" key={index}>
-          <img src={testimonialImg} alt={`Testimonial ${index + 1}`} />
+          <img loading="lazy" src={testimonialImg} alt={`Testimonial ${index + 1}`} />
         </div>
       ));
     

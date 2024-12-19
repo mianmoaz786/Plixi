@@ -5,7 +5,7 @@ const LastSection = () => {
   return (
     <>
       <section className='last-section-main'>
-        <img className='star-img' src={starimg} alt="" />
+        <img loading="lazy" className='star-img' src={starimg} alt="" />
       </section>
     </>
   )

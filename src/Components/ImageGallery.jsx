@@ -6,7 +6,7 @@ const ImageGallery = () => {
     <>
       <section className='image-gallery '>
 
-        <img className='hero-img' src={heroimg} alt="" />
+        <img loading="lazy" className='hero-img' src={heroimg} alt="" />
       
 
         

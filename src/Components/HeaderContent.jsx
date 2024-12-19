@@ -21,7 +21,7 @@ const HeaderContent = () => {
          </p>
          <div className="header-content-button">
           <button className='gradient-button'>
-          <img src={instagramIcon} alt="Instagram Icon" style={{ width: '19px', height: '21.71px' }} /> 
+          <img loading="lazy" src={instagramIcon} alt="Instagram Icon" style={{ width: '19px', height: '21.71px' }} /> 
           Get Started
           </button>
           <button className='preview'>

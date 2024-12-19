@@ -15,7 +15,7 @@ const GrowthSection = () => {
         </div>
         <div className='content'>
           <p>Used 28,891 times today</p>
-          <img src={contentImg} alt="" />
+          <img loading="lazy" src={contentImg} alt="" />
         </div>
         </div>
 

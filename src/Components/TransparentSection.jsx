@@ -14,7 +14,7 @@ const TransparentSection = () => {
         <div className="box">
           <div className="box-content">
             <div className="box-content-title">
-              <img style={{ width: "18px", height: "16px" }} src={vector} alt="" /> <h1>Auto Growth</h1>
+              <img loading="lazy" style={{ width: "18px", height: "16px" }} src={vector} alt="vector" /> <h1>Auto Growth</h1>
             </div>
             <div className="box-content-description ">
               <h2>
@@ -30,7 +30,7 @@ const TransparentSection = () => {
             </p>
             <button className="btn-box d-flex items-center justify-center gap-2">
               See how Auto Growth works{" "}
-              <img style={{ width: "12.76px", height: "7.9px", marginTop: "8px" }} src={arrowforward} alt="" />
+              <img loading="lazy" style={{ width: "12.76px", height: "7.9px", marginTop: "8px" }} src={arrowforward} alt="arrow-up" />
             </button>
           </div>
           <div className="right"></div>
@@ -39,7 +39,7 @@ const TransparentSection = () => {
         <div className="box">
           <div className="box-content">
             <div className="box-content-title">
-              <img style={{ width: "18px", height: "16px" }} src={orange} alt="" />{" "}
+              <img loading="lazy" style={{ width: "18px", height: "16px" }} src={orange} alt="orange" />{" "}
               <h1 style={{ color: "#FF6436" }}>Analytics</h1>
             </div>
             <div className="box-content-description ">
@@ -65,7 +65,7 @@ const TransparentSection = () => {
         <div className="box">
           <div className="box-content">
             <div className="box-content-title">
-              <img style={{ width: "18px", height: "16px" }} src={purplevector} alt="" />{" "}
+              <img loading="lazy" style={{ width: "18px", height: "16px" }} src={purplevector} alt="purple-vector" />{" "}
               <h1 style={{ color: "#8455D0" }}>Experts</h1>
             </div>
             <div className="box-content-description ">
@@ -82,7 +82,7 @@ const TransparentSection = () => {
             </p>
             <button className="btn-box d-flex items-center justify-center gap-2">
               See how Auto Growth works{" "}
-              <img style={{ width: "12.76px", height: "7.9px", marginTop: "8px" }} src={arrowforward} alt="" />
+              <img loading="lazy" style={{ width: "12.76px", height: "7.9px", marginTop: "8px" }} src={arrowforward} alt="arrow-farword" />
             </button>
           </div>
           <div className="right"></div>
@@ -91,7 +91,7 @@ const TransparentSection = () => {
         <div className="box">
           <div className="box-content">
             <div className="box-content-title">
-              <img style={{ width: "18px", height: "16px" }} src={purplevector} alt="" />{" "}
+              <img loading="lazy" style={{ width: "18px", height: "16px" }} src={purplevector} alt="purple-vector" />{" "}
               <h1 style={{ color: "#8455D0" }}>Cloud</h1>
             </div>
             <div className="box-content-description ">
@@ -109,7 +109,7 @@ const TransparentSection = () => {
             </p>
             <button className="btn-box d-flex items-center justify-center gap-2">
               Get Beta Access to Cloud{" "}
-              <img style={{ width: "12.76px", height: "7.9px", marginTop: "8px" }} src={arrowforward} alt="" />
+              <img loading="lazy" style={{ width: "12.76px", height: "7.9px", marginTop: "8px" }} src={arrowforward} alt="arrow-farword" />
             </button>
           </div>
           <div className="right"></div>
@@ -123,7 +123,7 @@ const TransparentSection = () => {
               <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                 <div id="box-1" className="card-vip">
                   {/* Card Content */}
-                  <img src={enterpreneur} alt="" />
+                  <img loading="lazy" src={enterpreneur} alt="enterpreneur" />
                   <h1>"Plixi Is The Best Instagram Tool  <br />
                   for Organic Results"</h1>
                   <h5>– Entrepreneur.com</h5>
@@ -132,14 +132,14 @@ const TransparentSection = () => {
               <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                 <div id="box-2" className="card-vip">
                   {/* Card Content */}
-                  <img style={{width:"147.35px",height:"147.35px"}} src={vipimgbox2} alt="" />
+                  <img loading="lazy" style={{width:"147.35px",height:"147.35px"}} src={vipimgbox2} alt="vip-img-box" />
                   <h5>4.84/5</h5>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6  mt-md-5 mt-lg-0">
                 <div id="box-3" className="card-vip">
                   {/* Card Content */}
-                  <img style={{width:"147.35px",height:"51.1px"}} src={cardvipimg2} alt="" />
+                  <img loading="lazy" style={{width:"147.35px",height:"51.1px"}} src={cardvipimg2} alt="vip-img-2" />
                   <h3>
                   “The Best Instagram Bot and <br />
                   Growth Service in 2023”
@@ -150,7 +150,7 @@ const TransparentSection = () => {
               <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6  mt-md-5 mt-xl-0">
                 <div id="box-4" className="card-vip">
                   {/* Card Content */}
-                  <img src={cardvipimg3} alt="" />
+                  <img loading="lazy" src={cardvipimg3} alt="vip-img-3" />
                   <h3>
                   “Plixi is a must have for any <br />
                   Instagram marketer”
