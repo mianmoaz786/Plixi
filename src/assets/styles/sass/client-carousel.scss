@@ -1,0 +1,245 @@
+@import "./global-variables.scss";
+
+.client-carousel {
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;  
+  flex-direction: column;
+  background-color:#FAF4FE;
+
+  width: 1260px;
+  height: 725px;
+  margin: 0 auto;
+ 
+ 
+
+ h1{
+
+  font-family: $font-family;
+font-size: 20.5px;
+font-weight: 700;
+line-height: 33px;
+background: $gradient-button;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+ }
+ .carousel-box{
+  width: 200px;
+  height: 200px;
+ 
+
+ }
+
+ #client-name-1, #client-name-2, #client-name-3, #client-name-4, #client-name-5, #client-name-6, #client-name-7, #client-name-8, #client-name-9 {
+  font-family: $font-family;
+font-size: 15.6px;
+font-weight: 400;
+line-height: 24px;
+color: white;
+ background: none;
+ -webkit-text-fill-color: white;
+
+
+ }
+
+ #client-handle-1, #client-handle-2, #client-handle-3, #client-handle-4, #client-handle-5, #client-handle-6, #client-handle-7, #client-handle-8, #client-handle-9 {
+  font-family: $font-family;
+  font-size: 22.7px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  background: none;
+  -webkit-text-fill-color: white;
+ }
+
+#client-memberSince-1, #client-memberSince-2, #client-memberSince-3, #client-memberSince-4, #client-memberSince-5, #client-memberSince-6, #client-memberSince-7, #client-memberSince-8, #client-memberSince-9 {
+  font-family: $font-family;
+  font-size: 13.2px;
+  font-weight: 400;
+  line-height: 21px;
+  color: white;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  opacity: 50%;
+}
+
+#client-memberSince-value-1, #client-memberSince-value-2, #client-memberSince-value-3, #client-memberSince-value-4, #client-memberSince-value-5, #client-memberSince-value-6, #client-memberSince-value-7, #client-memberSince-value-8, #client-memberSince-value-9 {
+  font-family: Inter;
+font-size: 23.8px;
+font-weight: 400;
+line-height: 36px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: white;
+}
+
+ #client-followers-1, #client-followers-2, #client-followers-3, #client-followers-4, #client-followers-5, #client-followers-6, #client-followers-7, #client-followers-8, #client-followers-9 {
+  font-family: $font-family;
+font-size: 13.2px;
+font-weight: 400;
+line-height: 21px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: white;
+opacity: 50%;
+
+ }
+
+ #client-followers-value-1, #client-followers-value-2, #client-followers-value-3, #client-followers-value-4, #client-followers-value-5, #client-followers-value-6, #client-followers-value-7, #client-followers-value-8, #client-followers-value-9 {
+  font-family: $font-family;
+  font-size: 23.8px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+color: white;
+ }
+
+ #client-growth-1, #client-growth-2, #client-growth-3, #client-growth-4, #client-growth-5, #client-growth-6, #client-growth-7, #client-growth-8, #client-growth-9 {
+  font-family: $font-family;
+  font-size: 13.2px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: white;
+  opacity: 50%;
+ }
+
+ #client-growth-value-1, #client-growth-value-2, #client-growth-value-3, #client-growth-value-4, #client-growth-value-5, #client-growth-value-6, #client-growth-value-7, #client-growth-value-8, #client-growth-value-9 {
+  font-family: $font-family;
+  font-size: 23.8px;
+  font-weight: 400;
+line-height: 36px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: white;
+ }
+
+
+
+ #carouselExample{
+ #box-1 {
+   background-color: black;
+ }
+ #box-2 {
+   background-color: #FFDD6A; /* Example color */
+ }
+ #box-3 {
+   background-color: #F57B33; /* Example color */
+ }
+ #box-4 {
+   background-color:black; /* Example color */
+ }
+ #box-5 {
+   background-color: #FFDD6A; /* Example color */
+ }
+ #box-6 {
+   background-color: #FFA133 /* Example color */
+ }
+ #box-7 {
+   background-color:black  ; /* Example color */
+ }
+ #box-8 {
+   background-color: #FFDD6A; /* Example color */
+ }
+ #box-9 {
+   background-color: #FFA133; /* Example color */
+ }
+ }
+
+
+#check-clients{
+  font-family: $font-family;
+font-size: 19.5px;
+font-weight: 400;
+line-height: 30px;
+
+color: $primary-color;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+#start-growing{
+  font-family: $font-family;
+  font-size: 19.5px;
+  font-weight: 400;
+  line-height: 20px;
+ color: #FF6436;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  
+}
+
+#now{
+  font-family: $font-family;
+  font-size: 19.5px;
+  font-weight: 400;
+  line-height: 30px;
+ 
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: $primary-color;
+}
+.moaz{
+  gap: 9rem;
+}
+
+
+
+  
+  
+}
+@media screen and (min-width: 768px) and (max-width:1020px) {
+  .client-carousel{
+    width: 100vw;
+  }
+  .client-carousel .moaz {
+    gap: 7rem;
+  }
+  .client-carousel #check-clients {
+    font-size: 15px;
+  }
+  .client-carousel #start-growing {
+    font-size: 15px;
+  }
+  .client-carousel #now {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 767px) {
+  .client-carousel {
+    width: 100vw;
+  }
+}
+@media (min-width: 320px) and (max-width: 600px) {
+  .client-carousel {
+    width: 100vw;
+  }
+  .client-carousel .moaz {
+    gap: 0;
+    flex-direction: column;
+  }
+  .client-carousel #check-clients {
+    font-size: 15px;
+  }
+  .client-carousel #start-growing {
+    font-size: 15px;
+  }
+  .client-carousel #now {
+    font-size: 15px;
+  }
+}
+

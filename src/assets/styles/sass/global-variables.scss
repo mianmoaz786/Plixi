@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+$font-family: 'Inter', sans-serif;
+$primary-color: #0E151B;
+$font-family: 'Inter', sans-serif;
+$gradient-button: linear-gradient(45deg, #4b25ea 0%, #bd18e6 50%, #fb590e 100%);
+$orange-color:#FF6436;
+$gray-color:#858D96;
+
+body {
+ overflow-x: hidden !important;
+ 
+ font-family: $font-family;
+}
+p{
+  margin: 0;
+}
+
+
+// Media Queries 
+@media (min-width: 2100px) and (max-width: 2300px) {
+  body{
+    overflow-x: hidden !important;
+    width: 100%;
+  }
+}

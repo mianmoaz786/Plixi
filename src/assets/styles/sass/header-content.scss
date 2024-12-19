@@ -1,0 +1,318 @@
+@import "./global-variables.scss";
+.header-content {
+  z-index: 100;
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 0 auto;
+  padding: 20px;
+
+  
+  .header-heading {
+    width: 842.71px;
+    height: 135px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    h1 {
+      background: $gradient-button;
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 45.9px;
+      font-weight: 700;
+      line-height: 57px;
+      letter-spacing: -1px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+    }
+    h2 {
+      font-size: 45.9px;
+      font-weight: 700;
+      line-height: 57px;
+      letter-spacing: -1px;
+      color: $primary-color;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+    }
+  }
+  p{
+    font-family: Inter;
+    font-size: 17.6px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+    font-family: $font-family;
+    color: $primary-color;
+  }
+  .header-content-button {
+    flex-direction: row !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+   
+  .gradient-button{
+    width: 205.91px;
+    height: 56px;
+    display: flex;
+    justify-content:center;
+    gap: 10px;
+    align-items: center;
+   flex-direction: row;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 10px 20px 0px #0000003B;
+    color: white;
+    background: $gradient-button;
+   }
+   .preview{
+    width: 229.97px;
+    height: 56px;
+        box-shadow: 0px 1px 1px 0px #0000001F;
+        background: #FFFFFF01;
+  
+    border-radius: 10px;
+   
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    font-weight: 400;
+    display: flex;
+    justify-content:center;
+   background-color: white;
+   color: $primary-color;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    color: $primary-color;
+   }
+  // img{
+  //   width: 612.7px;
+  //   height: 25px;
+  // }
+  .header-content-features{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: $primary-color;
+font-size: 12.1px;
+font-weight: 600;
+line-height: 21px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+  }
+  
+  .header-content-features-box{
+      display: flex;
+     
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+      .b{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 31px;
+        height: 30px;
+        background-color: rgb(105,215,136);
+      }
+  }
+}
+
+
+// Media Queries 
+@media (min-width: 2100px) and (max-width: 2300px) {
+    .header-content{
+
+        .header-heading{
+          width: auto;
+          h1{
+            font-size: 73px;
+          }
+          h2{
+            font-size: 45px;
+          }
+        }
+
+
+        .header-content-button{
+          width: auto;
+          flex-direction: row;
+           .gradient-button{
+            width: 300px;
+            gap: 20px;
+            font-size: 20px;
+           }
+           .preview{
+            width: 300px;
+            gap: 20px;
+            font-size: 24px;
+           }
+
+
+        }
+      }
+      .header-content p{
+        font-size: 25px;
+      }
+      .header-content img{
+        width: 1000px;
+        height: 44px;
+      }
+      
+}
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+  .header-content .header-heading h1 {
+    font-size: 40px;
+  }
+  .header-content .header-heading h2 {
+    font-size: 40px;
+  }
+  .header-content p {
+    font-size: 20px;
+  }
+  .header-content .header-content-button {
+    width: 100vw;
+    height: auto;
+    flex-direction: column !important;
+    gap: 1rem;
+  }
+  
+}
+@media (min-width: 500px) and (max-width: 600px) {
+  .header-content .header-heading h1 {
+    font-size: 30px;
+  }
+  .header-content .header-heading h2 {
+    font-size: 26px;
+  }
+  .header-content p {
+    font-size: 15px;
+  }
+  .header-content-features{
+    flex-direction: column;
+  }
+  .header-content-features-text{
+    font-size: 10px;
+  }
+  .header-content-features-box{
+    font-size: 10px;
+  }
+
+}
+
+@media (min-width: 450px) and (max-width: 500px) {
+  .header-content .header-heading h1 {
+    font-size: 26px;
+  }
+  .header-content .header-heading h2 {
+    font-size: 26px;
+  }
+  .header-content p {
+    font-size: 15px;
+  }
+  .header-content .header-content-button {
+    width: 100vw;
+    height: auto;
+    flex-direction: column !important;
+    gap: 1rem;
+  }
+  .header-content img {
+    width: 100vw;
+    height: auto;
+  }
+  .header-content-features{
+    flex-direction: column;
+  }
+  .header-content-features-text{
+    font-size: 10px;
+  }
+  .header-content-features-box{
+    font-size: 10px;
+  }
+}
+@media (min-width: 350px) and (max-width: 450px) {
+  .header-content .header-heading h1 {
+    font-size: 20px;
+  }
+  .header-content .header-heading h2 {
+    font-size: 20px;
+  }
+  .header-content .header-content-button {
+    width:100vw;
+    height: auto;
+    flex-direction: column !important;
+    gap: 1rem;
+  }
+  .header-content p {
+    font-size: 15px;
+  } 
+  .header-content .header-content-button {
+    width:100vw;
+    height: auto;
+    flex-direction: column !important;
+    gap: 1rem;
+  }
+  .header-content p {
+    font-size: 15px;
+  }  
+  .header-content-features{
+    flex-direction: column;
+  }
+  .header-content-features-text{
+    font-size: 10px;
+  }
+  .header-content-features-box{
+    font-size: 10px;
+  }
+
+  
+  }
+@media (min-width: 320px) and (max-width: 500px) {
+  .header-content img {
+    width: 100vw;
+    height: auto;
+  }
+}
+@media (min-width: 320px) and (max-width: 400px) {
+  .header-content .header-heading h1 {
+    font-size: 20px;
+  }
+  .header-content .header-heading h2 {
+    font-size: 16px;
+  }
+  .header-content .header-content-button {
+    width:100vw;
+    height: auto;
+    flex-direction: column !important;
+    gap: 1rem;
+  }
+  .header-content p {
+    font-size: 15px;
+  } 
+  .header-content-features{
+    flex-direction: column;
+  }
+  .header-content-features-text{
+    font-size: 8px;
+  }
+  .header-content-features-box{
+    font-size: 10px;
+  }
+  
+}

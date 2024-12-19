@@ -1,0 +1,371 @@
+@import './global-variables.scss';
+
+.joining-section{
+    width: 100%;
+    height: 496px;
+    display: flex;
+    margin: 29vh auto 0 auto;
+    gap: 4rem;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+   
+
+
+  h1{
+   
+font-size: 38.6px;
+font-weight: 700;
+line-height: 50px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: $primary-color;
+  }
+
+
+
+.joining-section-box{
+    width: 100%;
+    height: 80%;
+   margin: 0 auto;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+
+ .joining-section-box-left{
+    width: 47%;
+    padding-left: 20%;
+    height: 100%;
+    
+      background-color: #EFF3F6;
+      display: flex ;
+      gap: 1rem;
+      flex-direction: column;
+      border-radius: 10px;
+      justify-content: center;
+      align-items: center;
+
+ h5{
+ 
+  font-size: 28.2px;
+  font-weight: 700;
+  line-height: 45px;
+ 
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  
+    text-align: center;
+    color: $primary-color;
+ }
+p{
+
+  font-size: 17.6px;
+  font-weight: 400;
+  line-height: 27px;
+  
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  
+    text-align: center;
+    color: $primary-color;
+}
+
+button{
+  width: 200.93px;
+  height: 53px;
+  color: white;
+  
+
+font-size: 16.7px;
+font-weight: 600;
+line-height: 49px;
+letter-spacing: 0.5px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+    border-radius: 10px;
+    background-color: $primary-color;
+}
+
+
+
+ }
+ .joining-section-box-right{
+    width: 47%;
+    height: 100%;
+   
+    background:$gradient-button;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ border-radius: 10px;
+ gap: 1rem;
+
+ .h5{
+ 
+font-size: 28.2px;
+font-weight: 700;
+line-height: 45px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+  color: white;
+ }
+ p{
+
+
+font-size: 17.6px;
+font-weight: 400;
+line-height: 27px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+  color: white;
+ }
+ button{
+  width: 181.72px;
+  height: 53px;
+  text-align: center;
+  border-radius: 10px;
+ 
+  font-size: 16.7px;
+  font-weight: 600;
+  line-height: 49px;
+  letter-spacing: 0.5px;
+ color: $primary-color;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  border: none;
+  
+  background-color: white;
+ }
+
+
+
+
+
+
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1100px) {
+  .joining-section {
+    margin: 23vh 0;
+  }
+  .joining-section h1 {
+    font-size: 30px;
+  }
+  .joining-section .joining-section-box .joining-section-box-right p {
+    font-size: 16px;
+  }
+  .joining-section .joining-section-box .joining-section-box-left p {
+    font-size: 13px;
+  }
+  .joining-section .joining-section-box .joining-section-box-left {
+    padding-left: 9%;
+  
+}
+}
+@media screen and (min-width: 600px) and (max-width: 767px) {
+  .joining-section {
+    width: 100vw;
+    height: auto;
+    gap: 3rem;
+    margin-top: 7rem;
+  }
+  .joining-section h1 {
+    font-size: 25px;
+  }
+  .joining-section .joining-section-box {
+    flex-direction: column;
+    height: auto;
+    gap: 2rem;
+  }
+  .joining-section .joining-section-box .joining-section-box-left {
+    width: 80%;
+    height: 20rem;
+}
+.joining-section .joining-section-box .joining-section-box-right {
+  width: 80%;
+  height: 20rem;
+}
+}
+@media (min-width: 450px) and (max-width: 600px) {
+  .joining-section {
+    margin-top:50vh;
+    height: auto;
+  }
+  .joining-section h1 {
+    font-size: 20px;
+  }
+  .joining-section .joining-section-box .joining-section-box-left p {
+    font-size: 10px;
+  }
+  .joining-section .joining-section-box {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .joining-section .joining-section-box .joining-section-box-left {
+    padding-left: 0rem;
+    width: 80%;
+    height: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+  }
+  .joining-section .joining-section-box .joining-section-box-right {
+    width: 80%;
+    height: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+@media (min-width: 420px) and (max-width: 450px) {
+  .joining-section {
+    margin-top: 50vh;
+  }
+  .joining-section h1 {
+    font-size: 20px;
+  }
+  .joining-section .joining-section-box .joining-section-box-left p {
+    font-size: 10px;
+  }
+  .joining-section .joining-section-box {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .joining-section .joining-section-box .joining-section-box-left {
+    padding-left: 0rem;
+    width: 80%;
+    height: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+  }
+  .joining-section .joining-section-box .joining-section-box-right {
+    width: 80%;
+    height: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+
+
+
+
+
+
+
+@media (min-width: 350px) and (max-width: 420px) {
+  .joining-section {
+    margin-top: 90vh;
+    height: auto;
+  }
+  .joining-section h1 {
+    font-size: 20px;
+  }
+  .joining-section .joining-section-box .joining-section-box-left p {
+    font-size: 10px;
+  }
+  .joining-section .joining-section-box {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .joining-section .joining-section-box .joining-section-box-left {
+    padding-left: 0rem;
+    width: 80%;
+    height: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+  }
+  .joining-section .joining-section-box .joining-section-box-right {
+    width: 80%;
+    height: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+
+
+
+@media (min-width: 320px) and (max-width: 350px) {
+  .joining-section {
+    margin-top: 10vh;
+    height: auto;
+  }
+  .joining-section h1 {
+    font-size: 20px;
+  }
+  .joining-section .joining-section-box .joining-section-box-left p {
+    font-size: 10px;
+  }
+  .joining-section .joining-section-box {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .joining-section .joining-section-box .joining-section-box-left {
+    padding-left: 0rem;
+    width: 80%;
+    height: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+  }
+  .joining-section .joining-section-box .joining-section-box-right {
+    width: 80%;
+    height: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
